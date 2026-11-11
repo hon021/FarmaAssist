@@ -1,0 +1,15 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+
+## Secretos y datos locales
+appsettings.Development.json
+*.env
+*.log
+
+## Datos de la farmacia (no versionar)
+docs/*.xlsx

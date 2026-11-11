@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1270" viewBox="0 0 1200 1270" font-family="Segoe UI, Arial, sans-serif">
+  <rect x="0" y="0" width="1200" height="1270" fill="#0f1020"/>
+
+  <!-- Encabezado -->
+  <rect x="20" y="20" width="1160" height="70" rx="10" fill="#1a1d33"/>
+  <rect x="36" y="32" width="46" height="46" rx="10" fill="#14b87a"/>
+  <text x="59" y="62" font-size="18" font-weight="bold" fill="#0f1020" text-anchor="middle">FA</text>
+  <text x="96" y="56" font-size="22" font-weight="bold" fill="#ffffff">FarmaAssist</text>
+  <rect x="210" y="38" width="170" height="24" rx="12" fill="#14b87a"/>
+  <text x="295" y="55" font-size="11" font-weight="bold" fill="#0f1020" text-anchor="middle">ASISTENTE DOCUMENTAL</text>
+  <text x="96" y="78" font-size="12" fill="#9aa0c0">Registro de atención y consulta de inventario para farmacias</text>
+  <rect x="780" y="38" width="150" height="34" rx="8" fill="#14b87a"/>
+  <text x="855" y="60" font-size="13" font-weight="bold" fill="#0f1020" text-anchor="middle">Registro de atención</text>
+  <rect x="940" y="38" width="100" height="34" rx="8" fill="#242846"/>
+  <text x="990" y="60" font-size="13" fill="#ffffff" text-anchor="middle">Pacientes</text>
+  <rect x="1050" y="38" width="110" height="34" rx="8" fill="#242846"/>
+  <text x="1105" y="60" font-size="13" fill="#ffffff" text-anchor="middle">Inventario</text>
+
+  <!-- Aviso -->
+  <rect x="20" y="105" width="1160" height="52" rx="8" fill="#3a1f24" stroke="#8a3a40"/>
+  <text x="600" y="127" font-size="12" fill="#f5d36b" text-anchor="middle">Aviso de orientación farmacéutica: este sistema apoya a personal capacitado de farmacia. No sustituye la consulta médica formal.</text>
+  <text x="600" y="146" font-size="12" fill="#f5d36b" text-anchor="middle">En casos graves, remita a urgencias según el protocolo aprobado.</text>
+
+  <!-- Datos del paciente -->
+  <rect x="20" y="170" width="1160" height="430" rx="12" fill="#1a1d33"/>
+  <text x="40" y="200" font-size="16" font-weight="bold" fill="#ffffff">Datos del paciente</text>
+  <rect x="40" y="218" width="900" height="36" rx="8" fill="#12142a" stroke="#2d3154"/>
+  <text x="58" y="241" font-size="13" fill="#6b7194">Buscar paciente por tipo y número de documento</text>
+  <rect x="955" y="218" width="205" height="36" rx="8" fill="#2d3154"/>
+  <text x="1057" y="241" font-size="13" fill="#ffffff" text-anchor="middle">Buscar</text>
+
+  <text x="40" y="280" font-size="12" fill="#c8ccE6">Tipo de documento *</text>
+  <rect x="40" y="288" width="200" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="54" y="311" font-size="13" fill="#c8ccE6">Cédula de ciudadanía</text>
+  <text x="260" y="280" font-size="12" fill="#c8ccE6">Número de documento *</text>
+  <rect x="260" y="288" width="300" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="274" y="311" font-size="13" fill="#6b7194">Ej: 1092837460</text>
+  <text x="580" y="280" font-size="12" fill="#c8ccE6">Nombre completo *</text>
+  <rect x="580" y="288" width="300" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="594" y="311" font-size="13" fill="#6b7194">Ej: María Rodríguez</text>
+  <text x="900" y="280" font-size="12" fill="#c8ccE6">Fecha de nacimiento</text>
+  <rect x="900" y="288" width="260" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="914" y="311" font-size="13" fill="#6b7194">dd/mm/aaaa</text>
+
+  <text x="40" y="352" font-size="12" fill="#c8ccE6">Teléfono</text>
+  <rect x="40" y="360" width="300" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="54" y="383" font-size="13" fill="#6b7194">+57 300...</text>
+  <text x="360" y="352" font-size="12" fill="#f5d36b">Enfermedades preexistentes</text>
+  <rect x="360" y="360" width="400" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="374" y="383" font-size="13" fill="#6b7194">Ninguna conocida / Desconocido / Seleccionar</text>
+  <text x="780" y="352" font-size="12" fill="#f78c94">Alergias conocidas</text>
+  <rect x="780" y="360" width="380" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="794" y="383" font-size="13" fill="#6b7194">Ninguna conocida / Desconocido / Seleccionar</text>
+
+  <text x="40" y="424" font-size="12" fill="#c8ccE6">Carga de receta, informe o radiografía (opcional)</text>
+  <rect x="40" y="432" width="940" height="50" rx="8" fill="none" stroke="#2d3154" stroke-dasharray="6 4"/>
+  <rect x="54" y="443" width="150" height="28" rx="6" fill="#2d3154"/>
+  <text x="129" y="462" font-size="12" fill="#ffffff" text-anchor="middle">Seleccionar archivo</text>
+  <text x="220" y="462" font-size="12" fill="#6b7194">Ningún archivo seleccionado</text>
+  <rect x="990" y="443" width="180" height="26" rx="12" fill="#3b2d6b"/>
+  <text x="1080" y="460" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">OCR: pendiente (Etapa 3)</text>
+  <text x="40" y="498" font-size="11" fill="#9aa0c0">Radiografías: solo se almacenan. No se interpretan ni se generan diagnósticos.</text>
+
+  <!-- Registro de atención -->
+  <rect x="20" y="620" width="1160" height="380" rx="12" fill="#1a1d33"/>
+  <text x="40" y="650" font-size="16" font-weight="bold" fill="#ffffff">Registro de atención</text>
+  <text x="40" y="678" font-size="12" fill="#c8ccE6">Fecha y hora</text>
+  <rect x="40" y="686" width="300" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="54" y="709" font-size="13" fill="#9aa0c0">11/11/2026 08:30 (automática)</text>
+  <text x="360" y="678" font-size="12" fill="#c8ccE6">Motivo de consulta *</text>
+  <rect x="360" y="686" width="800" height="36" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="374" y="709" font-size="13" fill="#6b7194">Ej: Dolor de cabeza desde hace 2 días</text>
+
+  <text x="40" y="750" font-size="12" fill="#c8ccE6">Síntomas descritos por el paciente (o reemplazable por documento)</text>
+  <rect x="40" y="758" width="1120" height="60" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="54" y="782" font-size="13" fill="#6b7194">Describa molestias. Si el motivo es revisar una fórmula u otro documento, puede omitirse.</text>
+  <text x="40" y="838" font-size="12" fill="#c8ccE6">Antecedentes relevantes y observaciones del empleado</text>
+  <rect x="40" y="846" width="1120" height="40" rx="6" fill="#12142a" stroke="#2d3154"/>
+  <text x="54" y="871" font-size="13" fill="#6b7194">Texto libre con acceso controlado</text>
+
+  <text x="40" y="912" font-size="12" fill="#c8ccE6">Origen de los datos:</text>
+  <rect x="180" y="900" width="110" height="24" rx="12" fill="#2d3154"/>
+  <text x="235" y="917" font-size="11" fill="#ffffff" text-anchor="middle">Declarado</text>
+  <rect x="300" y="900" width="110" height="24" rx="12" fill="#3b2d6b"/>
+  <text x="355" y="917" font-size="11" fill="#ffffff" text-anchor="middle">Extraído</text>
+  <rect x="420" y="900" width="110" height="24" rx="12" fill="#1f5d46"/>
+  <text x="475" y="917" font-size="11" fill="#ffffff" text-anchor="middle">Confirmado</text>
+
+  <rect x="40" y="945" width="200" height="42" rx="8" fill="#14b87a"/>
+  <text x="140" y="971" font-size="14" font-weight="bold" fill="#0f1020" text-anchor="middle">Guardar atención</text>
+  <rect x="260" y="945" width="290" height="42" rx="8" fill="none" stroke="#2d3154" stroke-dasharray="6 4"/>
+  <text x="405" y="971" font-size="13" fill="#6b7194" text-anchor="middle">Consultar inventario (fase posterior)</text>
+
+  <!-- Ajustes -->
+  <rect x="20" y="1020" width="1160" height="230" rx="12" fill="#14162b" stroke="#2d3154"/>
+  <text x="40" y="1050" font-size="16" font-weight="bold" fill="#ffffff">Ajustes respecto al mockup v0.1</text>
+  <text x="40" y="1080" font-size="13" fill="#c8ccE6">1. Nombre oficial FarmaAssist. Terminología no clínica: Asistente documental y Registro de atención.</text>
+  <text x="40" y="1102" font-size="13" fill="#c8ccE6">2. Sin recomendaciones farmacológicas ni sugerencias de medicamentos a partir de síntomas.</text>
+  <text x="40" y="1124" font-size="13" fill="#c8ccE6">3. DNI sustituido por tipo y número de documento; edad por fecha de nacimiento; género retirado del MVP.</text>
+  <text x="40" y="1146" font-size="13" fill="#c8ccE6">4. Alergias y enfermedades con opción Desconocido; un campo vacío no equivale a ausencia.</text>
+  <text x="40" y="1168" font-size="13" fill="#c8ccE6">5. Distintivo OCR pendiente hasta la Etapa 3; las radiografías solo se almacenan.</text>
+  <text x="40" y="1190" font-size="13" fill="#c8ccE6">6. Acciones separadas: Guardar atención (MVP) y Consultar inventario (fase posterior).</text>
+  <text x="40" y="1212" font-size="13" fill="#c8ccE6">7. Campos añadidos: fecha y hora, motivo, resultado operativo, usuario y origen de cada dato.</text>
+</svg>
